@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="convert string to HAX, easy, fast new best latest way">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/icons/favicon.ico"/>
+    <title>Convert string to HAX</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Goldman:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header></header>
+    <main>
+
+        <div class="index__top__div">
+            <textarea id="area__input" class="index__textarea" name="textarea_in"></textarea>
+        </div>
+
+        <div class="index__convert___button__container">
+            <button class="index__convert__button" id="button" onclick="strToHax()">
+                Convert!
+            </button>
+            <div id="loader" class="loader"></div>
+        </div>
+
+        <div class="index__top__div">
+            <textarea id="area__output" class="index__textarea output" name="textarea_out" disabled></textarea>
+        </div>
+
+    </main>
+    <footer></footer>
+</body>
+<script src="./index.js"></script>
+</html>
