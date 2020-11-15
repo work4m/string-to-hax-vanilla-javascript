@@ -28,7 +28,7 @@ const convertFunction = (str) => {
                 var arr = [];
                 for (var i = 0, l = str.length; i < l; i++) {
                     var hex = Number(str.charCodeAt(i)).toString(16);
-                    arr.push(` ${hex}`);
+                    arr.push(`0x${hex} `);
                 }
                 resolve(arr.join(''));
             }, 1500);

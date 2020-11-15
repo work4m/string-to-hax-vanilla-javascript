@@ -8,14 +8,22 @@ $semi-trans-color: #00000059;
 
 body {
     background-image: url("./assets/images/bg-1.jpg");
-    background-repeat: unset;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    min-height: 100vh;
+    height: 100%;
     font-size: 30px;
     * {
         font-family: "Goldman";
         font-weight: 700;
+    }
+}
+
+header {
+    text-align: center;
+    p {
+        font-size: 10px;
     }
 }
 
